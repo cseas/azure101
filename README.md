@@ -71,6 +71,7 @@ You can use **Change size** to change the hardware configuration for your VM.
 
     Select the Connect button on the overview page for your VM. 
     ![](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/media/quick-create-portal/portal-quick-start-9.png)
+    
     In the **Connect to virtual machine** page, keep the default options to connect by DNS name over port 22. In **Login using VM local account** a connection command is shown. Click the button to copy the command. The following example shows what the SSH connection command looks like:
     ```sh
     ssh azureuser@myvm-123abc.eastus.cloudapp.azure.com
