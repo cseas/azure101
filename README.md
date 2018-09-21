@@ -15,7 +15,7 @@ This document contains two parts:
 2.  [Create a GPv2 storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=portal)
 
 3. Using the Azure Portal, click on "Static website (preview)" under "Settings" in the left navigation bar.
-<img src="https://docs.microsoft.com/en-us/azure/storage/blobs/media/storage-blob-static-website/storage-blob-static-website-portal-config.png">
+![](https://docs.microsoft.com/en-us/azure/storage/blobs/media/storage-blob-static-website/storage-blob-static-website-portal-config.png)
 
 4. Click "Enabled" and enter the name of the index document and (optionally) the custom error document path.
 
@@ -38,10 +38,12 @@ This document contains two parts:
 
     To create an SSH key pair and log into Linux VMs, run the following command from a Bash shell and follow the on-screen directions.
 
+    Press enter multiple times for defaults.
+
     ```sh
     ssh-keygen -t rsa -b 2048
     ```
-    Copy the contents of the generated public key file (\<filename>.pub) to the clipboard.
+    Copy the contents of the generated public key file (`cat ~/.ssh/id_rsa.pub`) to the clipboard.
 
 2. Log in to the [Azure portal](http://portal.azure.com).
 
@@ -57,7 +59,7 @@ This document contains two parts:
 You can use **Change size** to change the hardware configuration for your VM.
 ![](./media/instance_details.png)
 
-6. Under **Administrator Account**, select **SSH public key**, type your user name, then paste the public key you copied earlier into the text box. Remove any leading or trailing white space in your public key.
+6. Under **Administrator Account**, select **SSH public key**, type your user name (local), then paste the public key you copied earlier into the text box. Remove any leading or trailing white space in your public key.
 ![](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/media/quick-create-portal/administrator-account.png)
 
 7. Under **Inbound port rules** > **Public inbound ports**, choose **Allow selected ports** and then select **SSH (22)** and **HTTP (80)** from the drop-down.
