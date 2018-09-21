@@ -77,3 +77,9 @@ You can use **Change size** to change the hardware configuration for your VM.
 
     ```
     Paste the SSH connection command into a shell, such as Bash on Ubuntu to create the connection. 
+
+10. Clean up resources:
+
+    When no longer needed, you can delete the resource group, virtual machine, and all related resources. To do so, select the resource group for the virtual machine, select **Delete**, then confirm the name of the resource group to delete.
+
+[Reference](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal)
