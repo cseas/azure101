@@ -27,6 +27,8 @@ This document contains two parts:
 
 7. Finally, navigate to your web endpoint to test your website.
 
+[Reference](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website)
+
 ---
 
 ## Create a Linux Virtual Machine using Azure Portal
