@@ -57,7 +57,9 @@ This document contains two parts:
 
 5. Under **Instance Details**, type *myVM* for the Virtual machine name and choose Southeast Asia for your **Region**. Leave the other defaults. 
 You can use **Change size** to change the hardware configuration for your VM.
-![](./media/instance_details.png)
+   <kbd>
+   <img src="./media/instance_details.png">
+   </kbd>
 
 6. Under **Administrator Account**, select **SSH public key**, type your user name (local), then paste the public key you copied earlier into the text box. Remove any leading or trailing white space in your public key.
 ![](https://docs.microsoft.com/en-us/azure/virtual-machines/linux/media/quick-create-portal/administrator-account.png)
