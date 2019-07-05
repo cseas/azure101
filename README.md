@@ -14,7 +14,7 @@ This document contains two parts:
 
 2.  [Create a GPv2 storage account](https://docs.microsoft.com/en-us/azure/storage/common/storage-quickstart-create-account?tabs=portal)
 
-3. Using the Azure Portal, click on "Static website (preview)" under "Settings" in the left navigation bar.
+3. Navigate to your new Storage Account, click on "Static website (preview)" under "Settings" in the left navigation bar.
 ![](https://docs.microsoft.com/en-us/azure/storage/blobs/media/storage-blob-static-website/storage-blob-static-website-portal-config.png)
 
 4. Click "Enabled" and enter the name of the index document and (optionally) the custom error document path.
